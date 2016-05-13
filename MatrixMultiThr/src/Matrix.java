@@ -24,9 +24,9 @@ public class Matrix {
 			if (matrix[i][i] == 0) {
 
 				matrix[i][i] = value; // in the case of not zero diagElement -->
-										// thread fills the el with ID
-
-			}
+								      // thread fills the el with ID
+                break;
+			} 
 		}
 	}
 
