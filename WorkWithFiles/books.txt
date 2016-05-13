@@ -1,0 +1,6 @@
+Java Patterns -||- Syerra -||- Beits -||- 
+Learning Java -||- Syerra -||- Beits -||- 
+Methods of programming -||- Alexander -||- Blinov -||- 
+PO testing -||- Sviatoslav -||- Kulikov -||- 
+Testing Dot.com -||- Roman -||- Savin -||- 
+Thinking in Java -||- Bruis -||- Ekkel -||- 
