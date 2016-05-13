@@ -18,7 +18,7 @@ public class MatrixFiller implements Runnable {
 	//////////////////////////////////////////
 	@Override
 	public void run() {
-		for (int i = 0; i < 15; i++) {
+		for (int i = 0; i <20; i++) {
 
 			synchronized (matrix) {
 				matrix.fillDiagMatrix(id);;
