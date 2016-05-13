@@ -20,7 +20,7 @@ public class Matrix {
 	/////////////////////////////////////////////////////////
 	public void fillDiagMatrix(int value) {
 		for (int i = 0; i < this.matrix.length; i++) {
-
+           
 			if (matrix[i][i] == 0) {
 
 				matrix[i][i] = value; // in the case of not zero diagElement -->
