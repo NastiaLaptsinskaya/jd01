@@ -18,10 +18,11 @@ public class MatrixFiller implements Runnable {
 	//////////////////////////////////////////
 	@Override
 	public void run() {
-		for (int i = 0; i <20; i++) {
+		for (int i = 0; i < 20; i++) {
 
-			synchronized (matrix) {
-				matrix.fillDiagMatrix(id);;
+			synchronized (this.matrix) {
+				fillDiagMatrix(this.matrix);
+				
 			}
 
 			try {
@@ -32,5 +33,19 @@ public class MatrixFiller implements Runnable {
 			}
 		}
 
+	}
+
+	/////////////////////////////////////////////////////////
+	public void fillDiagMatrix(Matrix m) {
+		int[][] array = m.getMatrix();
+		for (int i = 0; i < array.length; i++) {
+
+			if (array[i][i] == 0) {
+
+				array[i][i] = this.id; // in the case of not zero diagElement -->
+				// thread fills the el with ID
+				break;
+			}
+		}
 	}
 }

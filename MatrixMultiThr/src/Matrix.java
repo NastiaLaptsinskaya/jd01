@@ -18,7 +18,7 @@ public class Matrix {
 	}
 
 	/////////////////////////////////////////////////////////
-	public void fillDiagMatrix(int value) {
+/*	public void fillDiagMatrix(int value) {
 		for (int i = 0; i < this.matrix.length; i++) {
            
 			if (matrix[i][i] == 0) {
@@ -29,7 +29,7 @@ public class Matrix {
 			} 
 		}
 	}
-
+*/
 	/////////////////////////////////////////////////////////
 	private int[][] createMatrix(int numRows, int numColumns) {
 		int[][] matrix = new int[numRows][numColumns];
