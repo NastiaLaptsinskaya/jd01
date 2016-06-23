@@ -13,12 +13,12 @@ public class Main {
 			Fraction sum = fract1.sum(fract2);
 			Fraction rsdl = fract1.residual(fract2);
 			
-			ConsoleOutput cl = new ConsoleOutput();
-			cl.consoleFrOutput(fract1);
+			//ConsoleOutput cl = new ConsoleOutput();
+			ConsoleOutput.consoleFrOutput(fract1);
 			
-			System.out.println(" x + y =  " + sum.getNumerator() + "/" + sum.getDenominator());
+/*			System.out.println(" x + y =  " + sum.getNumerator() + "/" + sum.getDenominator());
 			System.out.println(" x - y =  " + rsdl.getNumerator() + "/" + rsdl.getDenominator());
 			System.out.println(" x * y =  " + cmp.getNumerator() + "/" + cmp.getDenominator());
-			System.out.println(" x : y =  " + qtnt.getNumerator() + "/" + qtnt.getDenominator());
+			System.out.println(" x : y =  " + qtnt.getNumerator() + "/" + qtnt.getDenominator());*/
 		}
 }
